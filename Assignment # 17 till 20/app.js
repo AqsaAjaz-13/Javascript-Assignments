@@ -35,7 +35,7 @@ for (var i = 1; i <= length; i++) {
 }
 // Ques #5 
 
-  let fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+  var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
 
   for (var i = 0; i < fruits.length; i++) {
     document.write(fruits[i] + "<br>");
@@ -57,7 +57,7 @@ for (var i = 1; i <= length; i++) {
 
   document.write("<br><br>");
 
-  // b) Reverse counting: 10 to 1
+  // b) 
   document.write("<b>Reverse Counting:</b><br>");
   for (var i = 10; i >= 1; i--) {
     document.write(i + " ");
@@ -65,7 +65,7 @@ for (var i = 1; i <= length; i++) {
 
   document.write("<br><br>");
 
-  // c) Even numbers: 0 to 20
+  // c) 
   document.write("<b>Even:</b><br>");
   for (var i = 0; i <= 20; i += 2) {
     document.write(i + " ");
@@ -73,7 +73,7 @@ for (var i = 1; i <= length; i++) {
 
   document.write("<br><br>");
 
-  // d) Odd numbers: 1 to 19
+  // d) 
   document.write("<b>Odd:</b><br>");
   for (var i = 1; i <= 19; i += 2) {
     document.write(i + " ");
@@ -81,7 +81,7 @@ for (var i = 1; i <= length; i++) {
 
   document.write("<br><br>");
 
-  // e) Series: 2k to 20k
+  // e) S
   document.write("<b>Series:</b><br>");
   for (var i = 2; i <= 20; i += 2) {
     document.write(i + "k "+ "<br>");
