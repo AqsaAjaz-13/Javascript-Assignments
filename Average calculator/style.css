@@ -1,0 +1,85 @@
+ body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f1f3f6;
+  font-family: Arial, sans-serif;
+}
+
+
+ #display {
+  
+  margin-bottom: 13px;
+  text-align: right;
+  font-size: 22px;
+  padding: 10px;
+  border: 2px solid black;
+  background: #eaecef;
+  border-radius: 10px;
+} 
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+ button {
+  height: 45px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #e0e0e0;
+}
+
+
+button:hover {
+  background: #d4d4d4;
+}
+
+.zero {
+  grid-column: span 2;
+}
+
+button:last-child {
+  background: #1a73e8;
+  color: white;
+}   */
+
+/* body{
+    font-family: Arial;
+    background:#eee;
+    padding:20px;
+}
+
+form{
+    background:#fff;
+    padding:20px;
+    width:280px;
+    border-radius:6px;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin:6px 0;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:teal;
+    color:white;
+    border:none;
+}
+
+.customer-card{
+    background:white;
+    padding:15px;
+    margin-top:20px;
+    border-radius:6px;
+}
+
+
